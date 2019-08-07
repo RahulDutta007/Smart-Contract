@@ -139,14 +139,14 @@
     "absolutePath": "/root/SGB/contracts/SGB.sol",
     "exportedSymbols": {
       "SGB": [
-        330
+        1053
       ]
     },
-    "id": 331,
+    "id": 1054,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 178,
+        "id": 901,
         "literals": [
           "solidity",
           ">=",
@@ -165,23 +165,23 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 330,
+        "id": 1053,
         "linearizedBaseContracts": [
-          330
+          1053
         ],
         "name": "SGB",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "SGB.Bins",
-            "id": 187,
+            "id": 910,
             "members": [
               {
                 "constant": false,
-                "id": 180,
+                "id": 903,
                 "name": "ID",
                 "nodeType": "VariableDeclaration",
-                "scope": 187,
+                "scope": 910,
                 "src": "68:9:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -190,7 +190,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 179,
+                  "id": 902,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "68:6:2",
@@ -204,10 +204,10 @@
               },
               {
                 "constant": false,
-                "id": 182,
+                "id": 905,
                 "name": "status",
                 "nodeType": "VariableDeclaration",
-                "scope": 187,
+                "scope": 910,
                 "src": "81:13:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -216,7 +216,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 181,
+                  "id": 904,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "81:6:2",
@@ -230,10 +230,10 @@
               },
               {
                 "constant": false,
-                "id": 184,
+                "id": 907,
                 "name": "loc",
                 "nodeType": "VariableDeclaration",
-                "scope": 187,
+                "scope": 910,
                 "src": "98:10:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -242,7 +242,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 183,
+                  "id": 906,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "98:6:2",
@@ -256,10 +256,10 @@
               },
               {
                 "constant": false,
-                "id": 186,
+                "id": 909,
                 "name": "seg",
                 "nodeType": "VariableDeclaration",
-                "scope": 187,
+                "scope": 910,
                 "src": "112:10:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -268,7 +268,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 185,
+                  "id": 908,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "112:6:2",
@@ -283,16 +283,16 @@
             ],
             "name": "Bins",
             "nodeType": "StructDefinition",
-            "scope": 330,
+            "scope": 1053,
             "src": "52:74:2",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 190,
+            "id": 913,
             "name": "binStatusFull",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "129:29:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -301,7 +301,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 188,
+              "id": 911,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "129:6:2",
@@ -313,7 +313,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "46554c4c",
-              "id": 189,
+              "id": 912,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -332,10 +332,10 @@
           },
           {
             "constant": false,
-            "id": 193,
+            "id": 916,
             "name": "binStatusEmpty",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "161:31:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -344,7 +344,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 191,
+              "id": 914,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "161:6:2",
@@ -356,7 +356,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "454d505459",
-              "id": 192,
+              "id": 915,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -375,21 +375,21 @@
           },
           {
             "constant": false,
-            "id": 197,
+            "id": 920,
             "name": "bins",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "196:32:2",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$187_storage_$",
+              "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$910_storage_$",
               "typeString": "mapping(string => struct SGB.Bins)"
             },
             "typeName": {
-              "id": 196,
+              "id": 919,
               "keyType": {
-                "id": 194,
+                "id": 917,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "206:6:2",
@@ -401,18 +401,18 @@
               "nodeType": "Mapping",
               "src": "196:25:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$187_storage_$",
+                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$910_storage_$",
                 "typeString": "mapping(string => struct SGB.Bins)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 195,
+                "id": 918,
                 "name": "Bins",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 187,
+                "referencedDeclaration": 910,
                 "src": "216:4:2",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                  "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                   "typeString": "struct SGB.Bins"
                 }
               }
@@ -422,10 +422,10 @@
           },
           {
             "constant": false,
-            "id": 201,
+            "id": 924,
             "name": "binDistance",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "231:40:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -434,9 +434,9 @@
               "typeString": "mapping(string => string)"
             },
             "typeName": {
-              "id": 200,
+              "id": 923,
               "keyType": {
-                "id": 198,
+                "id": 921,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "241:6:2",
@@ -452,7 +452,7 @@
                 "typeString": "mapping(string => string)"
               },
               "valueType": {
-                "id": 199,
+                "id": 922,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "251:6:2",
@@ -467,10 +467,10 @@
           },
           {
             "constant": false,
-            "id": 205,
+            "id": 928,
             "name": "wasteHeight",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "274:40:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -479,9 +479,9 @@
               "typeString": "mapping(string => string)"
             },
             "typeName": {
-              "id": 204,
+              "id": 927,
               "keyType": {
-                "id": 202,
+                "id": 925,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "284:6:2",
@@ -497,7 +497,7 @@
                 "typeString": "mapping(string => string)"
               },
               "valueType": {
-                "id": 203,
+                "id": 926,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "294:6:2",
@@ -512,10 +512,10 @@
           },
           {
             "constant": true,
-            "id": 208,
+            "id": 931,
             "name": "binHeight",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "318:38:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -524,7 +524,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 206,
+              "id": 929,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "318:7:2",
@@ -536,7 +536,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "3130",
-              "id": 207,
+              "id": 930,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -555,10 +555,10 @@
           },
           {
             "constant": true,
-            "id": 211,
+            "id": 934,
             "name": "binThresholdDistance",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "359:48:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -567,7 +567,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 209,
+              "id": 932,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "359:7:2",
@@ -579,7 +579,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "32",
-              "id": 210,
+              "id": 933,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -599,20 +599,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 221,
+            "id": 944,
             "name": "SGBUpdate",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 220,
+              "id": 943,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 213,
+                  "id": 936,
                   "indexed": false,
                   "name": "ID",
                   "nodeType": "VariableDeclaration",
-                  "scope": 221,
+                  "scope": 944,
                   "src": "434:9:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -621,7 +621,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 212,
+                    "id": 935,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "434:6:2",
@@ -635,11 +635,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 215,
+                  "id": 938,
                   "indexed": false,
                   "name": "status",
                   "nodeType": "VariableDeclaration",
-                  "scope": 221,
+                  "scope": 944,
                   "src": "447:13:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -648,7 +648,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 214,
+                    "id": 937,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "447:6:2",
@@ -662,11 +662,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 217,
+                  "id": 940,
                   "indexed": false,
                   "name": "loc",
                   "nodeType": "VariableDeclaration",
-                  "scope": 221,
+                  "scope": 944,
                   "src": "464:10:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -675,7 +675,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 216,
+                    "id": 939,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "464:6:2",
@@ -689,11 +689,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 219,
+                  "id": 942,
                   "indexed": false,
                   "name": "seg",
                   "nodeType": "VariableDeclaration",
-                  "scope": 221,
+                  "scope": 944,
                   "src": "478:10:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -702,7 +702,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 218,
+                    "id": 941,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "478:6:2",
@@ -721,31 +721,31 @@
           },
           {
             "body": {
-              "id": 224,
+              "id": 947,
               "nodeType": "Block",
               "src": "520:2:2",
               "statements": []
             },
             "documentation": null,
-            "id": 225,
+            "id": 948,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 222,
+              "id": 945,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "510:2:2"
             },
             "returnParameters": {
-              "id": 223,
+              "id": 946,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "520:0:2"
             },
-            "scope": 330,
+            "scope": 1053,
             "src": "499:23:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -753,7 +753,7 @@
           },
           {
             "body": {
-              "id": 298,
+              "id": 1021,
               "nodeType": "Block",
               "src": "696:428:2",
               "statements": [
@@ -764,18 +764,18 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 242,
+                    "id": 965,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "argumentTypes": null,
-                      "id": 240,
+                      "id": 963,
                       "name": "_binDistance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 235,
+                      "referencedDeclaration": 958,
                       "src": "704:12:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -786,11 +786,11 @@
                     "operator": "<=",
                     "rightExpression": {
                       "argumentTypes": null,
-                      "id": 241,
+                      "id": 964,
                       "name": "binThresholdDistance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 211,
+                      "referencedDeclaration": 934,
                       "src": "720:20:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -810,7 +810,7 @@
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       },
-                      "id": 272,
+                      "id": 995,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -821,18 +821,18 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 268,
+                        "id": 991,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 266,
+                          "id": 989,
                           "name": "_binDistance",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 235,
+                          "referencedDeclaration": 958,
                           "src": "913:12:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -843,11 +843,11 @@
                         "operator": "==",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 267,
+                          "id": 990,
                           "name": "binHeight",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 208,
+                          "referencedDeclaration": 931,
                           "src": "929:9:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -868,18 +868,18 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 271,
+                        "id": 994,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 269,
+                          "id": 992,
                           "name": "_binWasteHeight",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 237,
+                          "referencedDeclaration": 960,
                           "src": "942:15:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -891,7 +891,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "30",
-                          "id": 270,
+                          "id": 993,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -919,29 +919,29 @@
                       }
                     },
                     "falseBody": null,
-                    "id": 296,
+                    "id": 1019,
                     "nodeType": "IfStatement",
                     "src": "909:212:2",
                     "trueBody": {
-                      "id": 295,
+                      "id": 1018,
                       "nodeType": "Block",
                       "src": "964:157:2",
                       "statements": [
                         {
                           "expression": {
                             "argumentTypes": null,
-                            "id": 275,
+                            "id": 998,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "leftHandSide": {
                               "argumentTypes": null,
-                              "id": 273,
+                              "id": 996,
                               "name": "_binStatus",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 229,
+                              "referencedDeclaration": 952,
                               "src": "969:10:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -952,11 +952,11 @@
                             "operator": "=",
                             "rightHandSide": {
                               "argumentTypes": null,
-                              "id": 274,
+                              "id": 997,
                               "name": "binStatusEmpty",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 193,
+                              "referencedDeclaration": 916,
                               "src": "982:14:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_storage",
@@ -969,14 +969,14 @@
                               "typeString": "string memory"
                             }
                           },
-                          "id": 276,
+                          "id": 999,
                           "nodeType": "ExpressionStatement",
                           "src": "969:27:2"
                         },
                         {
                           "expression": {
                             "argumentTypes": null,
-                            "id": 286,
+                            "id": 1009,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -985,25 +985,25 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 277,
+                                "id": 1000,
                                 "name": "bins",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 197,
+                                "referencedDeclaration": 920,
                                 "src": "1001:4:2",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$187_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$910_storage_$",
                                   "typeString": "mapping(string memory => struct SGB.Bins storage ref)"
                                 }
                               },
-                              "id": 279,
+                              "id": 1002,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 278,
+                                "id": 1001,
                                 "name": "_binID",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 227,
+                                "referencedDeclaration": 950,
                                 "src": "1006:6:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -1017,7 +1017,7 @@
                               "nodeType": "IndexAccess",
                               "src": "1001:12:2",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Bins_$187_storage",
+                                "typeIdentifier": "t_struct$_Bins_$910_storage",
                                 "typeString": "struct SGB.Bins storage ref"
                               }
                             },
@@ -1028,11 +1028,11 @@
                               "arguments": [
                                 {
                                   "argumentTypes": null,
-                                  "id": 281,
+                                  "id": 1004,
                                   "name": "_binID",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 227,
+                                  "referencedDeclaration": 950,
                                   "src": "1021:6:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_string_memory_ptr",
@@ -1041,11 +1041,11 @@
                                 },
                                 {
                                   "argumentTypes": null,
-                                  "id": 282,
+                                  "id": 1005,
                                   "name": "_binStatus",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 229,
+                                  "referencedDeclaration": 952,
                                   "src": "1029:10:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_string_memory_ptr",
@@ -1054,11 +1054,11 @@
                                 },
                                 {
                                   "argumentTypes": null,
-                                  "id": 283,
+                                  "id": 1006,
                                   "name": "_binLoc",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 231,
+                                  "referencedDeclaration": 954,
                                   "src": "1041:7:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_string_memory_ptr",
@@ -1067,11 +1067,11 @@
                                 },
                                 {
                                   "argumentTypes": null,
-                                  "id": 284,
+                                  "id": 1007,
                                   "name": "_binSeg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 233,
+                                  "referencedDeclaration": 956,
                                   "src": "1050:7:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_string_memory_ptr",
@@ -1098,18 +1098,18 @@
                                     "typeString": "string memory"
                                   }
                                 ],
-                                "id": 280,
+                                "id": 1003,
                                 "name": "Bins",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 187,
+                                "referencedDeclaration": 910,
                                 "src": "1016:4:2",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_struct$_Bins_$187_storage_ptr_$",
+                                  "typeIdentifier": "t_type$_t_struct$_Bins_$910_storage_ptr_$",
                                   "typeString": "type(struct SGB.Bins storage pointer)"
                                 }
                               },
-                              "id": 285,
+                              "id": 1008,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -1119,17 +1119,17 @@
                               "nodeType": "FunctionCall",
                               "src": "1016:42:2",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Bins_$187_memory",
+                                "typeIdentifier": "t_struct$_Bins_$910_memory",
                                 "typeString": "struct SGB.Bins memory"
                               }
                             },
                             "src": "1001:57:2",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Bins_$187_storage",
+                              "typeIdentifier": "t_struct$_Bins_$910_storage",
                               "typeString": "struct SGB.Bins storage ref"
                             }
                           },
-                          "id": 287,
+                          "id": 1010,
                           "nodeType": "ExpressionStatement",
                           "src": "1001:57:2"
                         },
@@ -1139,11 +1139,11 @@
                             "arguments": [
                               {
                                 "argumentTypes": null,
-                                "id": 289,
+                                "id": 1012,
                                 "name": "_binID",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 227,
+                                "referencedDeclaration": 950,
                                 "src": "1078:6:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -1152,11 +1152,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 290,
+                                "id": 1013,
                                 "name": "_binStatus",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 229,
+                                "referencedDeclaration": 952,
                                 "src": "1086:10:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -1165,11 +1165,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 291,
+                                "id": 1014,
                                 "name": "_binLoc",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 231,
+                                "referencedDeclaration": 954,
                                 "src": "1098:7:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -1178,11 +1178,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 292,
+                                "id": 1015,
                                 "name": "_binSeg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 233,
+                                "referencedDeclaration": 956,
                                 "src": "1107:7:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -1209,18 +1209,18 @@
                                   "typeString": "string memory"
                                 }
                               ],
-                              "id": 288,
+                              "id": 1011,
                               "name": "SGBUpdate",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 221,
+                              "referencedDeclaration": 944,
                               "src": "1068:9:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$returns$__$",
                                 "typeString": "function (string memory,string memory,string memory,string memory)"
                               }
                             },
-                            "id": 293,
+                            "id": 1016,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1234,36 +1234,36 @@
                               "typeString": "tuple()"
                             }
                           },
-                          "id": 294,
+                          "id": 1017,
                           "nodeType": "EmitStatement",
                           "src": "1063:52:2"
                         }
                       ]
                     }
                   },
-                  "id": 297,
+                  "id": 1020,
                   "nodeType": "IfStatement",
                   "src": "700:421:2",
                   "trueBody": {
-                    "id": 265,
+                    "id": 988,
                     "nodeType": "Block",
                     "src": "742:159:2",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 245,
+                          "id": 968,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
                             "argumentTypes": null,
-                            "id": 243,
+                            "id": 966,
                             "name": "_binStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 229,
+                            "referencedDeclaration": 952,
                             "src": "750:10:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
@@ -1274,11 +1274,11 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 244,
+                            "id": 967,
                             "name": "binStatusFull",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 190,
+                            "referencedDeclaration": 913,
                             "src": "763:13:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_storage",
@@ -1291,14 +1291,14 @@
                             "typeString": "string memory"
                           }
                         },
-                        "id": 246,
+                        "id": 969,
                         "nodeType": "ExpressionStatement",
                         "src": "750:26:2"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 256,
+                          "id": 979,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1307,25 +1307,25 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 247,
+                              "id": 970,
                               "name": "bins",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 197,
+                              "referencedDeclaration": 920,
                               "src": "781:4:2",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$187_storage_$",
+                                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$910_storage_$",
                                 "typeString": "mapping(string memory => struct SGB.Bins storage ref)"
                               }
                             },
-                            "id": 249,
+                            "id": 972,
                             "indexExpression": {
                               "argumentTypes": null,
-                              "id": 248,
+                              "id": 971,
                               "name": "_binID",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 227,
+                              "referencedDeclaration": 950,
                               "src": "786:6:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -1339,7 +1339,7 @@
                             "nodeType": "IndexAccess",
                             "src": "781:12:2",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Bins_$187_storage",
+                              "typeIdentifier": "t_struct$_Bins_$910_storage",
                               "typeString": "struct SGB.Bins storage ref"
                             }
                           },
@@ -1350,11 +1350,11 @@
                             "arguments": [
                               {
                                 "argumentTypes": null,
-                                "id": 251,
+                                "id": 974,
                                 "name": "_binID",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 227,
+                                "referencedDeclaration": 950,
                                 "src": "801:6:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -1363,11 +1363,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 252,
+                                "id": 975,
                                 "name": "_binStatus",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 229,
+                                "referencedDeclaration": 952,
                                 "src": "809:10:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -1376,11 +1376,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 253,
+                                "id": 976,
                                 "name": "_binLoc",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 231,
+                                "referencedDeclaration": 954,
                                 "src": "821:7:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -1389,11 +1389,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 254,
+                                "id": 977,
                                 "name": "_binSeg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 233,
+                                "referencedDeclaration": 956,
                                 "src": "830:7:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -1420,18 +1420,18 @@
                                   "typeString": "string memory"
                                 }
                               ],
-                              "id": 250,
+                              "id": 973,
                               "name": "Bins",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 187,
+                              "referencedDeclaration": 910,
                               "src": "796:4:2",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_struct$_Bins_$187_storage_ptr_$",
+                                "typeIdentifier": "t_type$_t_struct$_Bins_$910_storage_ptr_$",
                                 "typeString": "type(struct SGB.Bins storage pointer)"
                               }
                             },
-                            "id": 255,
+                            "id": 978,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1441,17 +1441,17 @@
                             "nodeType": "FunctionCall",
                             "src": "796:42:2",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Bins_$187_memory",
+                              "typeIdentifier": "t_struct$_Bins_$910_memory",
                               "typeString": "struct SGB.Bins memory"
                             }
                           },
                           "src": "781:57:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Bins_$187_storage",
+                            "typeIdentifier": "t_struct$_Bins_$910_storage",
                             "typeString": "struct SGB.Bins storage ref"
                           }
                         },
-                        "id": 257,
+                        "id": 980,
                         "nodeType": "ExpressionStatement",
                         "src": "781:57:2"
                       },
@@ -1461,11 +1461,11 @@
                           "arguments": [
                             {
                               "argumentTypes": null,
-                              "id": 259,
+                              "id": 982,
                               "name": "_binID",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 227,
+                              "referencedDeclaration": 950,
                               "src": "858:6:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -1474,11 +1474,11 @@
                             },
                             {
                               "argumentTypes": null,
-                              "id": 260,
+                              "id": 983,
                               "name": "_binStatus",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 229,
+                              "referencedDeclaration": 952,
                               "src": "866:10:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -1487,11 +1487,11 @@
                             },
                             {
                               "argumentTypes": null,
-                              "id": 261,
+                              "id": 984,
                               "name": "_binLoc",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 231,
+                              "referencedDeclaration": 954,
                               "src": "878:7:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -1500,11 +1500,11 @@
                             },
                             {
                               "argumentTypes": null,
-                              "id": 262,
+                              "id": 985,
                               "name": "_binSeg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 233,
+                              "referencedDeclaration": 956,
                               "src": "887:7:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -1531,18 +1531,18 @@
                                 "typeString": "string memory"
                               }
                             ],
-                            "id": 258,
+                            "id": 981,
                             "name": "SGBUpdate",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 221,
+                            "referencedDeclaration": 944,
                             "src": "848:9:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$returns$__$",
                               "typeString": "function (string memory,string memory,string memory,string memory)"
                             }
                           },
-                          "id": 263,
+                          "id": 986,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1556,7 +1556,7 @@
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 264,
+                        "id": 987,
                         "nodeType": "EmitStatement",
                         "src": "843:52:2"
                       }
@@ -1566,22 +1566,22 @@
               ]
             },
             "documentation": null,
-            "id": 299,
+            "id": 1022,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setSGBStatus",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 238,
+              "id": 961,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 227,
+                  "id": 950,
                   "name": "_binID",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "548:20:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1590,7 +1590,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 226,
+                    "id": 949,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "548:6:2",
@@ -1604,10 +1604,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 229,
+                  "id": 952,
                   "name": "_binStatus",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "570:24:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1616,7 +1616,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 228,
+                    "id": 951,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "570:6:2",
@@ -1630,10 +1630,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 231,
+                  "id": 954,
                   "name": "_binLoc",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "596:21:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1642,7 +1642,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 230,
+                    "id": 953,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "596:6:2",
@@ -1656,10 +1656,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 233,
+                  "id": 956,
                   "name": "_binSeg",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "619:21:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1668,7 +1668,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 232,
+                    "id": 955,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "619:6:2",
@@ -1682,10 +1682,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 235,
+                  "id": 958,
                   "name": "_binDistance",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "642:20:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1694,7 +1694,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 234,
+                    "id": 957,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "642:7:2",
@@ -1708,10 +1708,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 237,
+                  "id": 960,
                   "name": "_binWasteHeight",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "664:23:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1720,7 +1720,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 236,
+                    "id": 959,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "664:7:2",
@@ -1736,12 +1736,12 @@
               "src": "547:141:2"
             },
             "returnParameters": {
-              "id": 239,
+              "id": 962,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "696:0:2"
             },
-            "scope": 330,
+            "scope": 1053,
             "src": "526:598:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1749,37 +1749,37 @@
           },
           {
             "body": {
-              "id": 328,
+              "id": 1051,
               "nodeType": "Block",
               "src": "1247:84:2",
               "statements": [
                 {
                   "assignments": [
-                    313
+                    1036
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 313,
+                      "id": 1036,
                       "name": "bin",
                       "nodeType": "VariableDeclaration",
-                      "scope": 328,
+                      "scope": 1051,
                       "src": "1251:16:2",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                        "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                         "typeString": "struct SGB.Bins"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 312,
+                        "id": 1035,
                         "name": "Bins",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 187,
+                        "referencedDeclaration": 910,
                         "src": "1251:4:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                          "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                           "typeString": "struct SGB.Bins"
                         }
                       },
@@ -1787,30 +1787,30 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 317,
+                  "id": 1040,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 314,
+                      "id": 1037,
                       "name": "bins",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 197,
+                      "referencedDeclaration": 920,
                       "src": "1270:4:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$187_storage_$",
+                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$910_storage_$",
                         "typeString": "mapping(string memory => struct SGB.Bins storage ref)"
                       }
                     },
-                    "id": 316,
+                    "id": 1039,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 315,
+                      "id": 1038,
                       "name": "ID",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 301,
+                      "referencedDeclaration": 1024,
                       "src": "1275:2:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -1824,7 +1824,7 @@
                     "nodeType": "IndexAccess",
                     "src": "1270:8:2",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Bins_$187_storage",
+                      "typeIdentifier": "t_struct$_Bins_$910_storage",
                       "typeString": "struct SGB.Bins storage ref"
                     }
                   },
@@ -1839,25 +1839,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 318,
+                          "id": 1041,
                           "name": "bin",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 313,
+                          "referencedDeclaration": 1036,
                           "src": "1290:3:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                            "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                             "typeString": "struct SGB.Bins storage pointer"
                           }
                         },
-                        "id": 319,
+                        "id": 1042,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "ID",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 180,
+                        "referencedDeclaration": 903,
                         "src": "1290:6:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -1868,25 +1868,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 320,
+                          "id": 1043,
                           "name": "bin",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 313,
+                          "referencedDeclaration": 1036,
                           "src": "1298:3:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                            "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                             "typeString": "struct SGB.Bins storage pointer"
                           }
                         },
-                        "id": 321,
+                        "id": 1044,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "status",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 182,
+                        "referencedDeclaration": 905,
                         "src": "1298:10:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -1897,25 +1897,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 322,
+                          "id": 1045,
                           "name": "bin",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 313,
+                          "referencedDeclaration": 1036,
                           "src": "1310:3:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                            "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                             "typeString": "struct SGB.Bins storage pointer"
                           }
                         },
-                        "id": 323,
+                        "id": 1046,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "loc",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 184,
+                        "referencedDeclaration": 907,
                         "src": "1310:7:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -1926,25 +1926,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 324,
+                          "id": 1047,
                           "name": "bin",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 313,
+                          "referencedDeclaration": 1036,
                           "src": "1319:3:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                            "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                             "typeString": "struct SGB.Bins storage pointer"
                           }
                         },
-                        "id": 325,
+                        "id": 1048,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "seg",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 186,
+                        "referencedDeclaration": 909,
                         "src": "1319:7:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -1952,7 +1952,7 @@
                         }
                       }
                     ],
-                    "id": 326,
+                    "id": 1049,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
@@ -1965,30 +1965,30 @@
                       "typeString": "tuple(string storage ref,string storage ref,string storage ref,string storage ref)"
                     }
                   },
-                  "functionReturnParameters": 311,
-                  "id": 327,
+                  "functionReturnParameters": 1034,
+                  "id": 1050,
                   "nodeType": "Return",
                   "src": "1282:45:2"
                 }
               ]
             },
             "documentation": null,
-            "id": 329,
+            "id": 1052,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getSGBStatus",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 302,
+              "id": 1025,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 301,
+                  "id": 1024,
                   "name": "ID",
                   "nodeType": "VariableDeclaration",
-                  "scope": 329,
+                  "scope": 1052,
                   "src": "1149:16:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1997,7 +1997,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 300,
+                    "id": 1023,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1149:6:2",
@@ -2013,15 +2013,15 @@
               "src": "1148:18:2"
             },
             "returnParameters": {
-              "id": 311,
+              "id": 1034,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 304,
+                  "id": 1027,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 329,
+                  "scope": 1052,
                   "src": "1187:13:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -2030,7 +2030,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 303,
+                    "id": 1026,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1187:6:2",
@@ -2044,10 +2044,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 306,
+                  "id": 1029,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 329,
+                  "scope": 1052,
                   "src": "1202:13:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -2056,7 +2056,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 305,
+                    "id": 1028,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1202:6:2",
@@ -2070,10 +2070,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 308,
+                  "id": 1031,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 329,
+                  "scope": 1052,
                   "src": "1217:13:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -2082,7 +2082,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 307,
+                    "id": 1030,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1217:6:2",
@@ -2096,10 +2096,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 310,
+                  "id": 1033,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 329,
+                  "scope": 1052,
                   "src": "1232:13:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -2108,7 +2108,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 309,
+                    "id": 1032,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1232:6:2",
@@ -2123,14 +2123,14 @@
               ],
               "src": "1186:60:2"
             },
-            "scope": 330,
+            "scope": 1053,
             "src": "1127:204:2",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 331,
+        "scope": 1054,
         "src": "34:1300:2"
       }
     ],
@@ -2140,14 +2140,14 @@
     "absolutePath": "/root/SGB/contracts/SGB.sol",
     "exportedSymbols": {
       "SGB": [
-        330
+        1053
       ]
     },
-    "id": 331,
+    "id": 1054,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 178,
+        "id": 901,
         "literals": [
           "solidity",
           ">=",
@@ -2166,23 +2166,23 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 330,
+        "id": 1053,
         "linearizedBaseContracts": [
-          330
+          1053
         ],
         "name": "SGB",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "SGB.Bins",
-            "id": 187,
+            "id": 910,
             "members": [
               {
                 "constant": false,
-                "id": 180,
+                "id": 903,
                 "name": "ID",
                 "nodeType": "VariableDeclaration",
-                "scope": 187,
+                "scope": 910,
                 "src": "68:9:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2191,7 +2191,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 179,
+                  "id": 902,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "68:6:2",
@@ -2205,10 +2205,10 @@
               },
               {
                 "constant": false,
-                "id": 182,
+                "id": 905,
                 "name": "status",
                 "nodeType": "VariableDeclaration",
-                "scope": 187,
+                "scope": 910,
                 "src": "81:13:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2217,7 +2217,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 181,
+                  "id": 904,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "81:6:2",
@@ -2231,10 +2231,10 @@
               },
               {
                 "constant": false,
-                "id": 184,
+                "id": 907,
                 "name": "loc",
                 "nodeType": "VariableDeclaration",
-                "scope": 187,
+                "scope": 910,
                 "src": "98:10:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2243,7 +2243,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 183,
+                  "id": 906,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "98:6:2",
@@ -2257,10 +2257,10 @@
               },
               {
                 "constant": false,
-                "id": 186,
+                "id": 909,
                 "name": "seg",
                 "nodeType": "VariableDeclaration",
-                "scope": 187,
+                "scope": 910,
                 "src": "112:10:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2269,7 +2269,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 185,
+                  "id": 908,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "112:6:2",
@@ -2284,16 +2284,16 @@
             ],
             "name": "Bins",
             "nodeType": "StructDefinition",
-            "scope": 330,
+            "scope": 1053,
             "src": "52:74:2",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 190,
+            "id": 913,
             "name": "binStatusFull",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "129:29:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2302,7 +2302,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 188,
+              "id": 911,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "129:6:2",
@@ -2314,7 +2314,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "46554c4c",
-              "id": 189,
+              "id": 912,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2333,10 +2333,10 @@
           },
           {
             "constant": false,
-            "id": 193,
+            "id": 916,
             "name": "binStatusEmpty",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "161:31:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2345,7 +2345,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 191,
+              "id": 914,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "161:6:2",
@@ -2357,7 +2357,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "454d505459",
-              "id": 192,
+              "id": 915,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2376,21 +2376,21 @@
           },
           {
             "constant": false,
-            "id": 197,
+            "id": 920,
             "name": "bins",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "196:32:2",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$187_storage_$",
+              "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$910_storage_$",
               "typeString": "mapping(string => struct SGB.Bins)"
             },
             "typeName": {
-              "id": 196,
+              "id": 919,
               "keyType": {
-                "id": 194,
+                "id": 917,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "206:6:2",
@@ -2402,18 +2402,18 @@
               "nodeType": "Mapping",
               "src": "196:25:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$187_storage_$",
+                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$910_storage_$",
                 "typeString": "mapping(string => struct SGB.Bins)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 195,
+                "id": 918,
                 "name": "Bins",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 187,
+                "referencedDeclaration": 910,
                 "src": "216:4:2",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                  "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                   "typeString": "struct SGB.Bins"
                 }
               }
@@ -2423,10 +2423,10 @@
           },
           {
             "constant": false,
-            "id": 201,
+            "id": 924,
             "name": "binDistance",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "231:40:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2435,9 +2435,9 @@
               "typeString": "mapping(string => string)"
             },
             "typeName": {
-              "id": 200,
+              "id": 923,
               "keyType": {
-                "id": 198,
+                "id": 921,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "241:6:2",
@@ -2453,7 +2453,7 @@
                 "typeString": "mapping(string => string)"
               },
               "valueType": {
-                "id": 199,
+                "id": 922,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "251:6:2",
@@ -2468,10 +2468,10 @@
           },
           {
             "constant": false,
-            "id": 205,
+            "id": 928,
             "name": "wasteHeight",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "274:40:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2480,9 +2480,9 @@
               "typeString": "mapping(string => string)"
             },
             "typeName": {
-              "id": 204,
+              "id": 927,
               "keyType": {
-                "id": 202,
+                "id": 925,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "284:6:2",
@@ -2498,7 +2498,7 @@
                 "typeString": "mapping(string => string)"
               },
               "valueType": {
-                "id": 203,
+                "id": 926,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "294:6:2",
@@ -2513,10 +2513,10 @@
           },
           {
             "constant": true,
-            "id": 208,
+            "id": 931,
             "name": "binHeight",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "318:38:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2525,7 +2525,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 206,
+              "id": 929,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "318:7:2",
@@ -2537,7 +2537,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "3130",
-              "id": 207,
+              "id": 930,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2556,10 +2556,10 @@
           },
           {
             "constant": true,
-            "id": 211,
+            "id": 934,
             "name": "binThresholdDistance",
             "nodeType": "VariableDeclaration",
-            "scope": 330,
+            "scope": 1053,
             "src": "359:48:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2568,7 +2568,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 209,
+              "id": 932,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "359:7:2",
@@ -2580,7 +2580,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "32",
-              "id": 210,
+              "id": 933,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -2600,20 +2600,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 221,
+            "id": 944,
             "name": "SGBUpdate",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 220,
+              "id": 943,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 213,
+                  "id": 936,
                   "indexed": false,
                   "name": "ID",
                   "nodeType": "VariableDeclaration",
-                  "scope": 221,
+                  "scope": 944,
                   "src": "434:9:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2622,7 +2622,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 212,
+                    "id": 935,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "434:6:2",
@@ -2636,11 +2636,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 215,
+                  "id": 938,
                   "indexed": false,
                   "name": "status",
                   "nodeType": "VariableDeclaration",
-                  "scope": 221,
+                  "scope": 944,
                   "src": "447:13:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2649,7 +2649,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 214,
+                    "id": 937,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "447:6:2",
@@ -2663,11 +2663,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 217,
+                  "id": 940,
                   "indexed": false,
                   "name": "loc",
                   "nodeType": "VariableDeclaration",
-                  "scope": 221,
+                  "scope": 944,
                   "src": "464:10:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2676,7 +2676,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 216,
+                    "id": 939,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "464:6:2",
@@ -2690,11 +2690,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 219,
+                  "id": 942,
                   "indexed": false,
                   "name": "seg",
                   "nodeType": "VariableDeclaration",
-                  "scope": 221,
+                  "scope": 944,
                   "src": "478:10:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2703,7 +2703,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 218,
+                    "id": 941,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "478:6:2",
@@ -2722,31 +2722,31 @@
           },
           {
             "body": {
-              "id": 224,
+              "id": 947,
               "nodeType": "Block",
               "src": "520:2:2",
               "statements": []
             },
             "documentation": null,
-            "id": 225,
+            "id": 948,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 222,
+              "id": 945,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "510:2:2"
             },
             "returnParameters": {
-              "id": 223,
+              "id": 946,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "520:0:2"
             },
-            "scope": 330,
+            "scope": 1053,
             "src": "499:23:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -2754,7 +2754,7 @@
           },
           {
             "body": {
-              "id": 298,
+              "id": 1021,
               "nodeType": "Block",
               "src": "696:428:2",
               "statements": [
@@ -2765,18 +2765,18 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 242,
+                    "id": 965,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "argumentTypes": null,
-                      "id": 240,
+                      "id": 963,
                       "name": "_binDistance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 235,
+                      "referencedDeclaration": 958,
                       "src": "704:12:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2787,11 +2787,11 @@
                     "operator": "<=",
                     "rightExpression": {
                       "argumentTypes": null,
-                      "id": 241,
+                      "id": 964,
                       "name": "binThresholdDistance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 211,
+                      "referencedDeclaration": 934,
                       "src": "720:20:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2811,7 +2811,7 @@
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       },
-                      "id": 272,
+                      "id": 995,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2822,18 +2822,18 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 268,
+                        "id": 991,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 266,
+                          "id": 989,
                           "name": "_binDistance",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 235,
+                          "referencedDeclaration": 958,
                           "src": "913:12:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -2844,11 +2844,11 @@
                         "operator": "==",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 267,
+                          "id": 990,
                           "name": "binHeight",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 208,
+                          "referencedDeclaration": 931,
                           "src": "929:9:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -2869,18 +2869,18 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 271,
+                        "id": 994,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 269,
+                          "id": 992,
                           "name": "_binWasteHeight",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 237,
+                          "referencedDeclaration": 960,
                           "src": "942:15:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -2892,7 +2892,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "30",
-                          "id": 270,
+                          "id": 993,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -2920,29 +2920,29 @@
                       }
                     },
                     "falseBody": null,
-                    "id": 296,
+                    "id": 1019,
                     "nodeType": "IfStatement",
                     "src": "909:212:2",
                     "trueBody": {
-                      "id": 295,
+                      "id": 1018,
                       "nodeType": "Block",
                       "src": "964:157:2",
                       "statements": [
                         {
                           "expression": {
                             "argumentTypes": null,
-                            "id": 275,
+                            "id": 998,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "leftHandSide": {
                               "argumentTypes": null,
-                              "id": 273,
+                              "id": 996,
                               "name": "_binStatus",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 229,
+                              "referencedDeclaration": 952,
                               "src": "969:10:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -2953,11 +2953,11 @@
                             "operator": "=",
                             "rightHandSide": {
                               "argumentTypes": null,
-                              "id": 274,
+                              "id": 997,
                               "name": "binStatusEmpty",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 193,
+                              "referencedDeclaration": 916,
                               "src": "982:14:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_storage",
@@ -2970,14 +2970,14 @@
                               "typeString": "string memory"
                             }
                           },
-                          "id": 276,
+                          "id": 999,
                           "nodeType": "ExpressionStatement",
                           "src": "969:27:2"
                         },
                         {
                           "expression": {
                             "argumentTypes": null,
-                            "id": 286,
+                            "id": 1009,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -2986,25 +2986,25 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 277,
+                                "id": 1000,
                                 "name": "bins",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 197,
+                                "referencedDeclaration": 920,
                                 "src": "1001:4:2",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$187_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$910_storage_$",
                                   "typeString": "mapping(string memory => struct SGB.Bins storage ref)"
                                 }
                               },
-                              "id": 279,
+                              "id": 1002,
                               "indexExpression": {
                                 "argumentTypes": null,
-                                "id": 278,
+                                "id": 1001,
                                 "name": "_binID",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 227,
+                                "referencedDeclaration": 950,
                                 "src": "1006:6:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -3018,7 +3018,7 @@
                               "nodeType": "IndexAccess",
                               "src": "1001:12:2",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Bins_$187_storage",
+                                "typeIdentifier": "t_struct$_Bins_$910_storage",
                                 "typeString": "struct SGB.Bins storage ref"
                               }
                             },
@@ -3029,11 +3029,11 @@
                               "arguments": [
                                 {
                                   "argumentTypes": null,
-                                  "id": 281,
+                                  "id": 1004,
                                   "name": "_binID",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 227,
+                                  "referencedDeclaration": 950,
                                   "src": "1021:6:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_string_memory_ptr",
@@ -3042,11 +3042,11 @@
                                 },
                                 {
                                   "argumentTypes": null,
-                                  "id": 282,
+                                  "id": 1005,
                                   "name": "_binStatus",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 229,
+                                  "referencedDeclaration": 952,
                                   "src": "1029:10:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_string_memory_ptr",
@@ -3055,11 +3055,11 @@
                                 },
                                 {
                                   "argumentTypes": null,
-                                  "id": 283,
+                                  "id": 1006,
                                   "name": "_binLoc",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 231,
+                                  "referencedDeclaration": 954,
                                   "src": "1041:7:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_string_memory_ptr",
@@ -3068,11 +3068,11 @@
                                 },
                                 {
                                   "argumentTypes": null,
-                                  "id": 284,
+                                  "id": 1007,
                                   "name": "_binSeg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 233,
+                                  "referencedDeclaration": 956,
                                   "src": "1050:7:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_string_memory_ptr",
@@ -3099,18 +3099,18 @@
                                     "typeString": "string memory"
                                   }
                                 ],
-                                "id": 280,
+                                "id": 1003,
                                 "name": "Bins",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 187,
+                                "referencedDeclaration": 910,
                                 "src": "1016:4:2",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_struct$_Bins_$187_storage_ptr_$",
+                                  "typeIdentifier": "t_type$_t_struct$_Bins_$910_storage_ptr_$",
                                   "typeString": "type(struct SGB.Bins storage pointer)"
                                 }
                               },
-                              "id": 285,
+                              "id": 1008,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -3120,17 +3120,17 @@
                               "nodeType": "FunctionCall",
                               "src": "1016:42:2",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Bins_$187_memory",
+                                "typeIdentifier": "t_struct$_Bins_$910_memory",
                                 "typeString": "struct SGB.Bins memory"
                               }
                             },
                             "src": "1001:57:2",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Bins_$187_storage",
+                              "typeIdentifier": "t_struct$_Bins_$910_storage",
                               "typeString": "struct SGB.Bins storage ref"
                             }
                           },
-                          "id": 287,
+                          "id": 1010,
                           "nodeType": "ExpressionStatement",
                           "src": "1001:57:2"
                         },
@@ -3140,11 +3140,11 @@
                             "arguments": [
                               {
                                 "argumentTypes": null,
-                                "id": 289,
+                                "id": 1012,
                                 "name": "_binID",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 227,
+                                "referencedDeclaration": 950,
                                 "src": "1078:6:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -3153,11 +3153,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 290,
+                                "id": 1013,
                                 "name": "_binStatus",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 229,
+                                "referencedDeclaration": 952,
                                 "src": "1086:10:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -3166,11 +3166,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 291,
+                                "id": 1014,
                                 "name": "_binLoc",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 231,
+                                "referencedDeclaration": 954,
                                 "src": "1098:7:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -3179,11 +3179,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 292,
+                                "id": 1015,
                                 "name": "_binSeg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 233,
+                                "referencedDeclaration": 956,
                                 "src": "1107:7:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -3210,18 +3210,18 @@
                                   "typeString": "string memory"
                                 }
                               ],
-                              "id": 288,
+                              "id": 1011,
                               "name": "SGBUpdate",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 221,
+                              "referencedDeclaration": 944,
                               "src": "1068:9:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$returns$__$",
                                 "typeString": "function (string memory,string memory,string memory,string memory)"
                               }
                             },
-                            "id": 293,
+                            "id": 1016,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -3235,36 +3235,36 @@
                               "typeString": "tuple()"
                             }
                           },
-                          "id": 294,
+                          "id": 1017,
                           "nodeType": "EmitStatement",
                           "src": "1063:52:2"
                         }
                       ]
                     }
                   },
-                  "id": 297,
+                  "id": 1020,
                   "nodeType": "IfStatement",
                   "src": "700:421:2",
                   "trueBody": {
-                    "id": 265,
+                    "id": 988,
                     "nodeType": "Block",
                     "src": "742:159:2",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 245,
+                          "id": 968,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
                             "argumentTypes": null,
-                            "id": 243,
+                            "id": 966,
                             "name": "_binStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 229,
+                            "referencedDeclaration": 952,
                             "src": "750:10:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
@@ -3275,11 +3275,11 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 244,
+                            "id": 967,
                             "name": "binStatusFull",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 190,
+                            "referencedDeclaration": 913,
                             "src": "763:13:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_storage",
@@ -3292,14 +3292,14 @@
                             "typeString": "string memory"
                           }
                         },
-                        "id": 246,
+                        "id": 969,
                         "nodeType": "ExpressionStatement",
                         "src": "750:26:2"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 256,
+                          "id": 979,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3308,25 +3308,25 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 247,
+                              "id": 970,
                               "name": "bins",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 197,
+                              "referencedDeclaration": 920,
                               "src": "781:4:2",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$187_storage_$",
+                                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$910_storage_$",
                                 "typeString": "mapping(string memory => struct SGB.Bins storage ref)"
                               }
                             },
-                            "id": 249,
+                            "id": 972,
                             "indexExpression": {
                               "argumentTypes": null,
-                              "id": 248,
+                              "id": 971,
                               "name": "_binID",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 227,
+                              "referencedDeclaration": 950,
                               "src": "786:6:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -3340,7 +3340,7 @@
                             "nodeType": "IndexAccess",
                             "src": "781:12:2",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Bins_$187_storage",
+                              "typeIdentifier": "t_struct$_Bins_$910_storage",
                               "typeString": "struct SGB.Bins storage ref"
                             }
                           },
@@ -3351,11 +3351,11 @@
                             "arguments": [
                               {
                                 "argumentTypes": null,
-                                "id": 251,
+                                "id": 974,
                                 "name": "_binID",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 227,
+                                "referencedDeclaration": 950,
                                 "src": "801:6:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -3364,11 +3364,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 252,
+                                "id": 975,
                                 "name": "_binStatus",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 229,
+                                "referencedDeclaration": 952,
                                 "src": "809:10:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -3377,11 +3377,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 253,
+                                "id": 976,
                                 "name": "_binLoc",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 231,
+                                "referencedDeclaration": 954,
                                 "src": "821:7:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -3390,11 +3390,11 @@
                               },
                               {
                                 "argumentTypes": null,
-                                "id": 254,
+                                "id": 977,
                                 "name": "_binSeg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 233,
+                                "referencedDeclaration": 956,
                                 "src": "830:7:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -3421,18 +3421,18 @@
                                   "typeString": "string memory"
                                 }
                               ],
-                              "id": 250,
+                              "id": 973,
                               "name": "Bins",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 187,
+                              "referencedDeclaration": 910,
                               "src": "796:4:2",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_struct$_Bins_$187_storage_ptr_$",
+                                "typeIdentifier": "t_type$_t_struct$_Bins_$910_storage_ptr_$",
                                 "typeString": "type(struct SGB.Bins storage pointer)"
                               }
                             },
-                            "id": 255,
+                            "id": 978,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -3442,17 +3442,17 @@
                             "nodeType": "FunctionCall",
                             "src": "796:42:2",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Bins_$187_memory",
+                              "typeIdentifier": "t_struct$_Bins_$910_memory",
                               "typeString": "struct SGB.Bins memory"
                             }
                           },
                           "src": "781:57:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Bins_$187_storage",
+                            "typeIdentifier": "t_struct$_Bins_$910_storage",
                             "typeString": "struct SGB.Bins storage ref"
                           }
                         },
-                        "id": 257,
+                        "id": 980,
                         "nodeType": "ExpressionStatement",
                         "src": "781:57:2"
                       },
@@ -3462,11 +3462,11 @@
                           "arguments": [
                             {
                               "argumentTypes": null,
-                              "id": 259,
+                              "id": 982,
                               "name": "_binID",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 227,
+                              "referencedDeclaration": 950,
                               "src": "858:6:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -3475,11 +3475,11 @@
                             },
                             {
                               "argumentTypes": null,
-                              "id": 260,
+                              "id": 983,
                               "name": "_binStatus",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 229,
+                              "referencedDeclaration": 952,
                               "src": "866:10:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -3488,11 +3488,11 @@
                             },
                             {
                               "argumentTypes": null,
-                              "id": 261,
+                              "id": 984,
                               "name": "_binLoc",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 231,
+                              "referencedDeclaration": 954,
                               "src": "878:7:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -3501,11 +3501,11 @@
                             },
                             {
                               "argumentTypes": null,
-                              "id": 262,
+                              "id": 985,
                               "name": "_binSeg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 233,
+                              "referencedDeclaration": 956,
                               "src": "887:7:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_string_memory_ptr",
@@ -3532,18 +3532,18 @@
                                 "typeString": "string memory"
                               }
                             ],
-                            "id": 258,
+                            "id": 981,
                             "name": "SGBUpdate",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 221,
+                            "referencedDeclaration": 944,
                             "src": "848:9:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$returns$__$",
                               "typeString": "function (string memory,string memory,string memory,string memory)"
                             }
                           },
-                          "id": 263,
+                          "id": 986,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3557,7 +3557,7 @@
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 264,
+                        "id": 987,
                         "nodeType": "EmitStatement",
                         "src": "843:52:2"
                       }
@@ -3567,22 +3567,22 @@
               ]
             },
             "documentation": null,
-            "id": 299,
+            "id": 1022,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "setSGBStatus",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 238,
+              "id": 961,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 227,
+                  "id": 950,
                   "name": "_binID",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "548:20:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -3591,7 +3591,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 226,
+                    "id": 949,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "548:6:2",
@@ -3605,10 +3605,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 229,
+                  "id": 952,
                   "name": "_binStatus",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "570:24:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -3617,7 +3617,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 228,
+                    "id": 951,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "570:6:2",
@@ -3631,10 +3631,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 231,
+                  "id": 954,
                   "name": "_binLoc",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "596:21:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -3643,7 +3643,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 230,
+                    "id": 953,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "596:6:2",
@@ -3657,10 +3657,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 233,
+                  "id": 956,
                   "name": "_binSeg",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "619:21:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -3669,7 +3669,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 232,
+                    "id": 955,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "619:6:2",
@@ -3683,10 +3683,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 235,
+                  "id": 958,
                   "name": "_binDistance",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "642:20:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3695,7 +3695,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 234,
+                    "id": 957,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "642:7:2",
@@ -3709,10 +3709,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 237,
+                  "id": 960,
                   "name": "_binWasteHeight",
                   "nodeType": "VariableDeclaration",
-                  "scope": 299,
+                  "scope": 1022,
                   "src": "664:23:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3721,7 +3721,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 236,
+                    "id": 959,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "664:7:2",
@@ -3737,12 +3737,12 @@
               "src": "547:141:2"
             },
             "returnParameters": {
-              "id": 239,
+              "id": 962,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "696:0:2"
             },
-            "scope": 330,
+            "scope": 1053,
             "src": "526:598:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -3750,37 +3750,37 @@
           },
           {
             "body": {
-              "id": 328,
+              "id": 1051,
               "nodeType": "Block",
               "src": "1247:84:2",
               "statements": [
                 {
                   "assignments": [
-                    313
+                    1036
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 313,
+                      "id": 1036,
                       "name": "bin",
                       "nodeType": "VariableDeclaration",
-                      "scope": 328,
+                      "scope": 1051,
                       "src": "1251:16:2",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                        "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                         "typeString": "struct SGB.Bins"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 312,
+                        "id": 1035,
                         "name": "Bins",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 187,
+                        "referencedDeclaration": 910,
                         "src": "1251:4:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                          "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                           "typeString": "struct SGB.Bins"
                         }
                       },
@@ -3788,30 +3788,30 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 317,
+                  "id": 1040,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 314,
+                      "id": 1037,
                       "name": "bins",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 197,
+                      "referencedDeclaration": 920,
                       "src": "1270:4:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$187_storage_$",
+                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_Bins_$910_storage_$",
                         "typeString": "mapping(string memory => struct SGB.Bins storage ref)"
                       }
                     },
-                    "id": 316,
+                    "id": 1039,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 315,
+                      "id": 1038,
                       "name": "ID",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 301,
+                      "referencedDeclaration": 1024,
                       "src": "1275:2:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -3825,7 +3825,7 @@
                     "nodeType": "IndexAccess",
                     "src": "1270:8:2",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Bins_$187_storage",
+                      "typeIdentifier": "t_struct$_Bins_$910_storage",
                       "typeString": "struct SGB.Bins storage ref"
                     }
                   },
@@ -3840,25 +3840,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 318,
+                          "id": 1041,
                           "name": "bin",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 313,
+                          "referencedDeclaration": 1036,
                           "src": "1290:3:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                            "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                             "typeString": "struct SGB.Bins storage pointer"
                           }
                         },
-                        "id": 319,
+                        "id": 1042,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "ID",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 180,
+                        "referencedDeclaration": 903,
                         "src": "1290:6:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -3869,25 +3869,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 320,
+                          "id": 1043,
                           "name": "bin",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 313,
+                          "referencedDeclaration": 1036,
                           "src": "1298:3:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                            "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                             "typeString": "struct SGB.Bins storage pointer"
                           }
                         },
-                        "id": 321,
+                        "id": 1044,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "status",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 182,
+                        "referencedDeclaration": 905,
                         "src": "1298:10:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -3898,25 +3898,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 322,
+                          "id": 1045,
                           "name": "bin",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 313,
+                          "referencedDeclaration": 1036,
                           "src": "1310:3:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                            "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                             "typeString": "struct SGB.Bins storage pointer"
                           }
                         },
-                        "id": 323,
+                        "id": 1046,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "loc",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 184,
+                        "referencedDeclaration": 907,
                         "src": "1310:7:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -3927,25 +3927,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 324,
+                          "id": 1047,
                           "name": "bin",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 313,
+                          "referencedDeclaration": 1036,
                           "src": "1319:3:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Bins_$187_storage_ptr",
+                            "typeIdentifier": "t_struct$_Bins_$910_storage_ptr",
                             "typeString": "struct SGB.Bins storage pointer"
                           }
                         },
-                        "id": 325,
+                        "id": 1048,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "seg",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 186,
+                        "referencedDeclaration": 909,
                         "src": "1319:7:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -3953,7 +3953,7 @@
                         }
                       }
                     ],
-                    "id": 326,
+                    "id": 1049,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
@@ -3966,30 +3966,30 @@
                       "typeString": "tuple(string storage ref,string storage ref,string storage ref,string storage ref)"
                     }
                   },
-                  "functionReturnParameters": 311,
-                  "id": 327,
+                  "functionReturnParameters": 1034,
+                  "id": 1050,
                   "nodeType": "Return",
                   "src": "1282:45:2"
                 }
               ]
             },
             "documentation": null,
-            "id": 329,
+            "id": 1052,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getSGBStatus",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 302,
+              "id": 1025,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 301,
+                  "id": 1024,
                   "name": "ID",
                   "nodeType": "VariableDeclaration",
-                  "scope": 329,
+                  "scope": 1052,
                   "src": "1149:16:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -3998,7 +3998,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 300,
+                    "id": 1023,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1149:6:2",
@@ -4014,15 +4014,15 @@
               "src": "1148:18:2"
             },
             "returnParameters": {
-              "id": 311,
+              "id": 1034,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 304,
+                  "id": 1027,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 329,
+                  "scope": 1052,
                   "src": "1187:13:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -4031,7 +4031,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 303,
+                    "id": 1026,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1187:6:2",
@@ -4045,10 +4045,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 306,
+                  "id": 1029,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 329,
+                  "scope": 1052,
                   "src": "1202:13:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -4057,7 +4057,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 305,
+                    "id": 1028,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1202:6:2",
@@ -4071,10 +4071,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 308,
+                  "id": 1031,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 329,
+                  "scope": 1052,
                   "src": "1217:13:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -4083,7 +4083,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 307,
+                    "id": 1030,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1217:6:2",
@@ -4097,10 +4097,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 310,
+                  "id": 1033,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 329,
+                  "scope": 1052,
                   "src": "1232:13:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -4109,7 +4109,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 309,
+                    "id": 1032,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1232:6:2",
@@ -4124,14 +4124,14 @@
               ],
               "src": "1186:60:2"
             },
-            "scope": 330,
+            "scope": 1053,
             "src": "1127:204:2",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 331,
+        "scope": 1054,
         "src": "34:1300:2"
       }
     ],
@@ -4145,12 +4145,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xF45287400d4eA7a55b52F8058FfbDa68cB06f88a",
-      "transactionHash": "0xa0bf963d56276fc3cda353cf0d010579330509e2ef313ad3e5e9b0c0a2400c4b"
+      "address": "0xc845dC5322f8760332df68B97fF0315cD0b03Bf7",
+      "transactionHash": "0x8b73250d120f6515b684c6d4dc3b0844abdd9d3da1838ddf6cb9701905fd8141"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-08-07T11:04:12.103Z",
+  "updatedAt": "2019-08-07T18:37:58.996Z",
   "devdoc": {
     "methods": {}
   },

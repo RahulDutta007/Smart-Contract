@@ -29,7 +29,7 @@ contract SGB {
 	constructor() public {}
 
 
-	function setSGBStatus(string memory _binID, string memory _binStatus, string memory _binLoc, string memory _binSeg, uint256 _binDistance, uint256 _binWasteHeight) public {
+	function SGBStatus(string memory _binID, string memory _binStatus, string memory _binLoc, string memory _binSeg, uint256 _binDistance, uint256 _binWasteHeight) public {
 		if (_binDistance <= binThresholdDistance) {			
 			_binStatus = binStatusFull;
 			bins[_binID] = Bins(_binID, _binStatus, _binLoc, _binSeg);
