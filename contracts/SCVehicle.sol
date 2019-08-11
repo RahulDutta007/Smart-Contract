@@ -55,7 +55,8 @@ contract SCVehicle {
 
 	string vehicleStatusFull = "FULL";
 	string vehicleStatusAvailable = "AVAILABLE";
-	string resp = "READY";
+	string respTrue = "READY";
+	string respFalse = "NOT READY";
 
 	uint256 constant vehicleThresholdWeight = 50;
 	uint256 constant vehicleThresholdSpace  = 10;
@@ -103,20 +104,24 @@ contract SCVehicle {
     function requestResponse(address _vehiclePK) public {
 		Bins storage b = sgbNotification[_vehiclePK].bin;
 		Vehicles storage v = sgbNotification[_vehiclePK].vehicle;
+		
+		response[_vehiclePK].notify.vehicle.PK=v.PK;
+		response[_vehiclePK].notify.vehicle.loc=v.loc;
+		response[_vehiclePK].notify.vehicle.status=v.status;
+
+		response[_vehiclePK].notify.bin.ID=b.ID;
+		response[_vehiclePK].notify.bin.loc=b.loc;
+		response[_vehiclePK].notify.bin.status=b.status;
+		response[_vehiclePK].notify.bin.seg=b.seg;
+		
 		if (keccak256(abi.encodePacked(vehicle[_vehiclePK].status )) == keccak256(abi.encodePacked(vehicleStatusAvailable))){
-			
-			response[_vehiclePK].notify.vehicle.PK=v.PK;
-			response[_vehiclePK].notify.vehicle.loc=v.loc;
-			response[_vehiclePK].notify.vehicle.status=v.status;
-
-			response[_vehiclePK].notify.bin.ID=b.ID;
-			response[_vehiclePK].notify.bin.loc=b.loc;
-			response[_vehiclePK].notify.bin.status=b.status;
-			response[_vehiclePK].notify.bin.seg=b.seg;
-
-			response[_vehiclePK].resp=resp;
-
-			emit ResponseEvent(vehicle[_vehiclePK].PK, vehicle[_vehiclePK].loc, vehicle[_vehiclePK].status, b.ID, b.status, b.loc, b.seg, resp);	    	
+			response[_vehiclePK].resp=respTrue;
+			emit ResponseEvent(vehicle[_vehiclePK].PK, vehicle[_vehiclePK].loc, vehicle[_vehiclePK].status, b.ID, b.status, b.loc, b.seg, respTrue);	    	
+		}
+		else
+		{
+			response[_vehiclePK].resp=respFalse;
+			emit ResponseEvent(vehicle[_vehiclePK].PK, vehicle[_vehiclePK].loc, vehicle[_vehiclePK].status, b.ID, b.status, b.loc, b.seg, respFalse);	    	
 		}
     }
 
@@ -146,8 +151,8 @@ contract SCVehicle {
 		emit OptimalRouteCollectEvent(v.PK, v.loc, v.status, b.ID, b.status, b.loc, b.seg, _route);
     }
 
-    function getOptimalRouteCollect (address _vehiclePK) public view returns(string memory, string memory, string memory, string memory) {
-		return(routeCollect[_vehiclePK].notify.bin.ID, routeCollect[_vehiclePK].notify.bin.loc, routeCollect[_vehiclePK].notify.bin.status, routeCollect[_vehiclePK].notify.bin.seg); 	
+    function getOptimalRouteCollect (address _vehiclePK) public view returns(string memory, string memory, string memory, string memory, string memory) {
+		return(routeCollect[_vehiclePK].notify.bin.ID, routeCollect[_vehiclePK].notify.bin.loc, routeCollect[_vehiclePK].notify.bin.status, routeCollect[_vehiclePK].notify.bin.seg, routeCollect[_vehiclePK].route ); 	
     }
 
     function optimalRouteDispose(address _vehiclePK, string memory _disposalArea , string memory _route) public {

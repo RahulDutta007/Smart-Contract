@@ -12,7 +12,7 @@ contract token {
 
     string private _name;
     string private _symbol;
-    uint8 private _decimals;
+    uint256 private _initialSupply;
 
     event Transfer(address indexed from, address indexed to, uint256 value);
     event Approval(address indexed owner, address indexed spender, uint256 value);
@@ -23,10 +23,11 @@ contract token {
      * these values are immutable: they can only be set once during
      * construction.
      */
-    constructor (string memory name, string memory symbol, uint8 decimals) public {
+    constructor (string memory name, string memory symbol, uint256 intialSupply) public {
         _name = name;
         _symbol = symbol;
-        _decimals = decimals;
+        _initialSupply=intialSupply;
+        _balances[msg.sender] = _initialSupply;
     }
 
     /**
@@ -56,8 +57,8 @@ contract token {
      * no way affects any of the arithmetic of the contract, including
      * {IERC20-balanceOf} and {IERC20-transfer}.
      */
-    function decimals() public view returns (uint8) {
-        return _decimals;
+    function intialSupply() public view returns (uint256) {
+        return _initialSupply;
     }
 
     /**
